@@ -1,0 +1,108 @@
+{
+  "name": "Event",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Type": {
+      "type": "number",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Image": {
+      "type": "object"
+    },
+    "User": {
+      "type": "object",
+      "required": true
+    },
+    "Tags": {
+      "type": [
+        "object"
+      ]
+    },
+    "Location": {
+      "type": "object"
+    },
+    "UpVotes": {
+      "type": [
+        "object"
+      ]
+    },
+    "DownVotes": {
+      "type": [
+        "object"
+      ]
+    },
+    "Host": {
+      "type": "object"
+    },
+    "HostVolunteers": {
+      "type": [
+        "object"
+      ]
+    },
+    "Volunteers": {
+      "type": [
+        "object"
+      ]
+    },
+    "SelectedVolunteers": {
+      "type": [
+        "object"
+      ]
+    },
+    "LocationSuggestions": {
+      "type": [
+        "object"
+      ]
+    },
+    "Comments": {
+      "type": [
+        "object"
+      ]
+    },
+    "CreatedOn": {
+      "type": "date",
+      "required": true
+    },
+    "ModifiedOn": {
+      "type": "date",
+      "required": true
+    },
+    "DateSuggestions": {
+      "type": [
+        "object"
+      ]
+    },
+    "Confirmed": {
+      "type": "boolean"
+    },
+    "ConfirmedOn": {
+      "type": "date"
+    },
+    "Completed": {
+      "type": "boolean"
+    },
+    "CompletedOn": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

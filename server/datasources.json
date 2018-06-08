@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MongoDB": {
+    "host": "cluster0-6qeqj.gcp.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://stevenhalase:maggie11@cluster0-6qeqj.gcp.mongodb.net/neighbor?retryWrites=true",
+    "database": "neighbor",
+    "password": "maggie11",
+    "name": "MongoDB",
+    "user": "stevenhalase",
+    "connector": "mongodb"
+  }
+}
